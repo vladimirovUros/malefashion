@@ -1235,9 +1235,9 @@ if(window.location.pathname.includes("/shop.html")){
     ajaxCallBack("boja.json", function(boje){
         ispisBojaProizvodi(boje);
     });
-    prebrojProizvodePolovi("Male");//svaki put kad se klikne nesto ova f-ja se poziva
+    prebrojProizvodePolovi("Male");
     ispisRejtingaSidebar();
-    prebrojProizvodePolovi("Female"); //probaj dal je moguce samo jedna funckija...
+    prebrojProizvodePolovi("Female"); 
     document.querySelector('#prazanNiz').style.display = "none";
     window.onload = function(){
         ukupnaCenaPrikaz();
