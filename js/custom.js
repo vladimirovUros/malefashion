@@ -216,12 +216,6 @@ function promeniCeneValuta(valuta){
         })
     }
     if(valuta == "USD"){
-        // cenauKorpi.forEach(cena => {
-        //     let pozicijaEuro = cena.innerHTML.indexOf('€');
-        //     let cenaEuro = Number(cena.innerHTML.substring(0,pozicijaEuro));
-        //     let novaCena = cenaEuro * 1.0692;
-        //     cena.innerHTML = `$${novaCena.toFixed(2)}`;
-        // })
         return true;
     }
 }
@@ -598,7 +592,6 @@ function aboutUsIspis(){
     };
 }
 function aboutUsZaposleniIspis(){
-    // let nizSlike = ["img/about/team-1.jpg", ]
     let nizTekst = ["John Smith", "Christine Wise", "Sean Robbins", "Lucy Myers"];
     let nizSpan = ["Fashion Design", "C.E.O", "Manager", "Delivery"];
     let nizAlt = ["Zaposleni dizajner", "Vlasnik", "Menadzer", "Dostavljač"];
@@ -925,7 +918,6 @@ function pretraziProizvode(proizvodi){
 }
 function dodajUKorpu(){
     let btnZaDodavanje = document.querySelectorAll('.add-cart');
-    // let nizZaKorpu = [];
     btnZaDodavanje.forEach(btn => 
         btn.addEventListener('click',function(e){
             e.preventDefault();
@@ -980,8 +972,6 @@ function dodajUKorpu(){
                 }, 2000)
                 korpa.push({"id": idProizvoda,"kolicina": 1});
                 localStorage.setItem("korpa", JSON.stringify(korpa));
-                //= Number(document.querySelector('.ukupnaCenauKorpi').innerHTML.slice(1));
-                //parentElement.children[2].children[1]
                 let prikazCene;
                 if(localStorage.getItem("ukupnaCena") == null){
                     prikazCene = 0;             
@@ -991,17 +981,6 @@ function dodajUKorpu(){
                 }
                 
                 let ukupnaCenaKorpa = document.querySelectorAll('.ukupnaCenauKorpi');
-                // if(localStorage.getItem("valuta") == "USD"){
-                //     ukupnaCenaKorpa.forEach(el =>)
-                //     prikazCene = Number(ukupnaCenaKorpa.innerHTML.slice(1));
-                // }
-                // if(localStorage.getItem("valuta") == "EUR"){
-                //     let pozEuro = ukupnaCenaKorpa.indexOf('€');
-                //     prikazCene = Number(ukupnaCenaKorpa.innerHTML.substring(0,pozEuro));
-                // }
-                // if(localStorage.getItem("valuta") == null){
-                //     prikazCene = Number(ukupnaCenaKorpa.innerHTML.slice(1));
-                // }
               
                 prikazCene = prikazCene + cenaPr;
                 console.log(prikazCene);
@@ -1216,10 +1195,8 @@ if(window.location.pathname.includes("/index.html")){
     };
 }
 if(window.location.pathname.includes("/shop.html")){
-    // ajaxCallBack("proizvodi.json", function(proizvodi){
         let proizvodi = JSON.parse(localStorage.getItem("proizvodi"));
         stampanjeProizvoda(proizvodi,"#allProducts","col-lg-4 col-md-6 col-sm-6 ");
-        //  });
     ajaxCallBack("kategorije.json", function(kategorija){
         ispisKategorija(kategorija);
     });
@@ -1434,7 +1411,6 @@ if(window.location.pathname.includes('/checkout.html')){
         let pozicija = nizZaIsplatu.length - 1;
         checkTotal.innerHTML = `<li>Total<span>${nizZaIsplatu[pozicija].ukupnaCena}</span></li>`
     });
-    //site-btn
 }
 if(window.location.pathname.includes('/contact.html')){
     ukupnaCenaPrikaz();
@@ -1786,7 +1762,6 @@ document.querySelector('.checkout__order button[type="submit"]').addEventListene
         <a href="shop.html"><button type="submit" class="btn btn-primary">Back to shop page</button></a>
         </div>
         `;
-        // location.href = 'index.html';
     };
     brojProizvodaUKorpi();
 });
