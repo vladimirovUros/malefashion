@@ -181,13 +181,13 @@ function menjanjeValute(){
                     console.log(val.innerHTML );
                     span.innerHTML = `${val.innerHTML} <i class="arrow_carrot-down"></i>`;
                 })
-                if(window.location.pathname == '/index.html'){
+                if(window.location.pathname.includes('index.html')){
                     ispisProizvodeSekcije();
                 }
-                if(window.location.pathname == '/shop.html'){
+                if(window.location.pathname.includes('/shop.html')){
                     promeniIzgledProizvoda();
                 }
-                if(window.location.pathname == '/shopping-cart.html'){
+                if(window.location.pathname.includes('/shopping-cart.html')){
                    promeniProizvodeKorpa();
                    menjanjeKolicineUKorpi();
                    ukupnaCenaUKorpi();
@@ -1174,7 +1174,7 @@ function promeniProizvodeKorpa(){
         }
         ispisiProizvodeKorpa(proizvodi);
 }
-if(window.location.pathname == "/index.html"){
+if(window.location.pathname.includes("/index.html")){
     ispisiSlider();
     instagramSlikeIspis();
     window.onload = function(){
@@ -1215,7 +1215,7 @@ if(window.location.pathname == "/index.html"){
         }, 5000);     
     };
 }
-if(window.location.pathname == "/shop.html"){
+if(window.location.pathname.includes("/shop.html")){
     // ajaxCallBack("proizvodi.json", function(proizvodi){
         let proizvodi = JSON.parse(localStorage.getItem("proizvodi"));
         stampanjeProizvoda(proizvodi,"#allProducts","col-lg-4 col-md-6 col-sm-6 ");
@@ -1308,7 +1308,7 @@ if(window.location.pathname == "/shop.html"){
     }
    
 }
-if(window.location.pathname == '/about.html'){
+if(window.location.pathname.includes('/about.html')){
     
     let counterWrapper = document.querySelector('.counter .row');
     let brojevi = ["370","20","150","540"];
@@ -1333,7 +1333,7 @@ if(window.location.pathname == '/about.html'){
         aboutUsPartneri();
     }
 }
-if(window.location.pathname == '/shopping-cart.html'){
+if(window.location.pathname.includes('/shopping-cart.html')){
     if(JSON.parse(localStorage.getItem("korpa")) == null || JSON.parse(localStorage.getItem("korpa")).length == 0){
         document.querySelector('.shopping-cart').innerHTML =   
         `<div id="prazno">
@@ -1384,7 +1384,7 @@ if(window.location.pathname == '/shopping-cart.html'){
         }
     }
 }
-if(window.location.pathname == '/wishlist.html'){
+if(window.location.pathname.includes('/wishlist.html')){
     if(JSON.parse(localStorage.getItem("omiljeniProizvodi")) == null || JSON.parse(localStorage.getItem("omiljeniProizvodi")).length == 0){
         document.querySelector('#wishlist').innerHTML = `<div id="prazno">
         <h2>Your wishlist is empty.</h2>
@@ -1420,7 +1420,7 @@ if(window.location.pathname == '/wishlist.html'){
         brisanjeProizvoda("omiljenaLista");
     }
 }
-if(window.location.pathname == '/checkout.html'){
+if(window.location.pathname.includes('/checkout.html')){
    validation(); 
     $(document).ready(function(){
         let nizZaIsplatu = JSON.parse(localStorage.getItem("korpaZaIsplatu"));
@@ -1436,7 +1436,7 @@ if(window.location.pathname == '/checkout.html'){
     });
     //site-btn
 }
-if(window.location.pathname == '/contact.html'){
+if(window.location.pathname.includes('/contact.html')){
     ukupnaCenaPrikaz();
     const nameRegex = /^[A-ZČĆĐŽŠ][a-zčćđžš]{2,}(\s[A-ZČĆĐŽŠ][a-zčćđžš]{2,})*$/;
     const emailRegex = /^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$/;
@@ -1477,7 +1477,7 @@ if(window.location.pathname == '/contact.html'){
         });
 
 }
-if(window.location.pathname == '/autor.html'){
+if(window.location.pathname.includes('/autor.html')){
     ukupnaCenaPrikaz();
 }
 function brisanjeProizvoda(tip){
