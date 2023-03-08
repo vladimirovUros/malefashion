@@ -762,7 +762,7 @@ function promeniIzgledProizvoda(){
     if(proizvodi.length == 0){
         document.querySelector('#prazanNiz').style.display = "block";
         document.querySelector('#prazanNiz').classList.add("alert","alert-danger");
-        document.querySelector('#prazanNiz').innerHTML = 'Nažalost nemamo proizvode za izabrani kriterijum.';
+        document.querySelector('#prazanNiz').innerHTML = 'Unfortunately, we have no products for the selected criteria.';
     }
     else{
         document.querySelector('#prazanNiz').style.display = "none";
