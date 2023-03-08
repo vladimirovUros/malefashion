@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "url": "index.html",
+        "naziv": "Home"
+    },
+    {
+        "id": 2,
+        "url": "about.html",
+        "naziv": "About"
+    },
+    {
+        "id": 3,
+        "url": "shop.html",
+        "naziv": "Shop"
+    },
+    {
+        "id": 4,
+        "url": "contact.html",
+        "naziv": "Contact"
+    },
+    {
+        "id": 5,
+        "url": "autor.html",
+        "naziv": "Author"
+    }
+]

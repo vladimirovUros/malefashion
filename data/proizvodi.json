@@ -1,0 +1,947 @@
+[
+    {
+        "id": 1,
+        "naziv": "Black Element Skirt",
+        "slike":{
+            "manja": "img/product/product-1-manja.png",
+            "veca": "img/product/product-1.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": 55.99,
+            "aktuelnaCena": 47.24
+        },
+        "popust": true,
+        "kategorijaID": 6,
+        "brendID": 1,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black skirt will be a great addition to your wardrobe - made from quality materials and with a classic design, it will fit perfectly into your style, whether for formal or casual occasions."
+    },
+    {
+        "id": 2,
+        "naziv": "Green Tretorn Jacket",
+        "slike":{
+            "manja": "img/product/product-2-manja.png",
+            "veca": "img/product/product-2.jpg"
+        },
+        "ocena": 3,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 67.24
+        },
+        "popust": false,
+        "kategorijaID": 4,
+        "brendID": 2,
+        "bojaID": 5,
+        "velicinaID": [4, 5, 6],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This olive green fall jacket will be a great choice for the upcoming season - made from high-quality materials and with a modern design, it provides the perfect balance between style and comfort. "
+    },
+    {
+        "id": 3,
+        "naziv": "Black Missoni Jacket",
+        "slike":{
+            "manja": "img/product/product-3-manja.png",
+            "veca": "img/product/product-3.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 99.99,
+            "aktuelnaCena": 89.55
+        },
+        "popust": true,
+        "kategorijaID": 4,
+        "brendID": 1,
+        "bojaID": 3,
+        "velicinaID": [1, 3, 6],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This black jacket is a must-have addition to your wardrobe - made from durable and comfortable materials, it offers both style and functionality. With its sleek and classic design, it can be worn for a variety of occasions."
+    },
+    {
+        "id": 4,
+        "naziv": "Black Missoni Shirt",
+        "slike":{
+            "manja": "img/product/product-4-manja.png",
+            "veca": "img/product/product-4.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": 20.55,
+            "aktuelnaCena": 17.66
+        },
+        "popust": true,
+        "kategorijaID": 1,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [2, 4, 6],
+        "pol": 2,
+        "sekcijaID": 1,
+        "opis": "Black women's t-shirt is a versatile and comfortable addition to your wardrobe - made from soft and breathable materials, Its simple and classic design makes it easy to pair with different clothing items."
+    },
+    {
+        "id": 5,
+        "naziv": "Black Element Shirt",
+        "slike":{
+            "manja": "img/product/product-5-manja.png",
+            "veca": "img/product/product-5.jpg"
+        },
+        "ocena": 2,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 21.99
+        },
+        "popust": false,
+        "kategorijaID": 1,
+        "brendID": 1,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 3, 4, 5],
+        "pol": 2,
+        "sekcijaID": 3,
+        "opis": "This black women's t-shirt is a stylish and comfortable addition to your collection - crafted from a soft and breathable cotton blend, it offers all-day comfort and a flattering fit."
+    },
+    {
+        "id": 6,
+        "naziv": "Green Berluti Jacket",
+        "slike":{
+            "manja": "img/product/product-6-manja.png",
+            "veca": "img/product/product-6.jpg"
+        },
+        "ocena": 3,
+        "cena":{
+            "staraCena": 120.99,
+            "aktuelnaCena": 100.99
+        },
+        "popust": true,
+        "kategorijaID": 4,
+        "brendID": 3,
+        "bojaID": 5,
+        "velicinaID": [2, 4, 6],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This green men's winter jacket is a practical and stylish addition to your cold weather wardrobe - made from high-quality materials, it provides warmth and protection against the elements."
+    },
+    {
+        "id": 7,
+        "naziv": "Black Tretorn Hoodie",
+        "slike":{
+            "manja": "img/product/product-7-manja.png",
+            "veca": "img/product/product-7.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": 120.99,
+            "aktuelnaCena": 100.99
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [4, 6],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This black men's hoodie is a classic and comfortable addition to your casual wardrobe. Whether for a workout, a day out with friends, or a relaxed evening at home, this hoodie is a great choice for any occasion."
+    },
+    {
+        "id": 8,
+        "naziv": "White Element Hoodie",
+        "slike":{
+            "manja": "img/product/product-8-manja.png",
+            "veca": "img/product/product-8.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 99.00,
+            "aktuelnaCena": 90.00
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 1,
+        "bojaID": 4,
+        "velicinaID": [1, 2, 3, 5, 6],
+        "pol": 1,
+        "sekcijaID": 2,
+        "opis": "With its relaxed fit and functional features, such as a kangaroo pocket and adjustable drawstrings, this hoodie is sure to become a go-to staple in your wardrobe."
+    },
+    {
+        "id": 9,
+        "naziv": "Green Missoni Hoodie",
+        "slike":{
+            "manja": "img/product/product-9-manja.png",
+            "veca": "img/product/product-9.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 99.99,
+            "aktuelnaCena": 69.99
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 4,
+        "bojaID": 5,
+        "velicinaID": [1],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This green men's hoodie is a must-have item for any casual wardrobe - made from a premium cotton blend, it offers both comfort and durability. Its modern and sleek design, combined with a relaxed fit, makes it a versatile choice for a range of occasions."
+    },
+    {
+        "id": 10,
+        "naziv": "Green Berluti Hoodie",
+        "slike":{
+            "manja": "img/product/product-10-manja.png",
+            "veca": "img/product/product-10.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 79.99
+        },
+        "popust": false,
+        "kategorijaID": 3,
+        "brendID": 3,
+        "bojaID": 5,
+        "velicinaID": [1, 2, 3],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "This olive green men's hoodie by Berluti is a stylish and comfortable addition to your casual wardrobe - made from a soft and breathable cotton blend, it offers all-day comfort and a flattering fit."
+    },
+    {
+        "id": 11,
+        "naziv": "Basic Element Jeans",
+        "slike":{
+            "manja": "img/product/product-11-manja.png",
+            "veca": "img/product/product-11.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": 60.99,
+            "aktuelnaCena": 55.55
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 1,
+        "bojaID": 1,
+        "velicinaID": [2, 3, 6],
+        "pol": 1,
+        "sekcijaID": 2,
+        "opis": "These men's jeans are a classic and versatile addition to your wardrobe - made from premium denim, they offer both style and durability. Their slim fit and timeless design make them easy to pair with different clothing items."
+    },
+    {
+        "id": 12,
+        "naziv": "Basic Missoni Jeans",
+        "slike":{
+            "manja": "img/product/product-12-manja.png",
+            "veca": "img/product/product-12.jpg"
+        },
+        "ocena": 2,
+        "cena":{
+            "staraCena": 99.99,
+            "aktuelnaCena": 80.99
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 4,
+        "bojaID": 1,
+        "velicinaID": [2, 3, 4],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "These ripped men's jeans are a trendy and edgy addition to your wardrobe. The rips and tears are carefully crafted by the manufacturer to give the jeans a vintage and lived-in feel, making them a great choice for a range of occasions."
+    },
+    {
+        "id": 13,
+        "naziv": "Basic Tretorn Jeans",
+        "slike":{
+            "manja": "img/product/product-13-manja.png",
+            "veca": "img/product/product-13.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 68.99
+        },
+        "popust": false,
+        "kategorijaID": 2,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [1, 3, 4],
+        "pol": 1,
+        "sekcijaID": 3,
+        "opis": "These dark men's jeans are a sophisticated and versatile addition to your wardrobe - made from premium denim. The deep blue color of the jeans gives them a sleek and polished look that is perfect for a range of occasions, from business meetings to nights out."
+    },
+    {
+        "id": 14,
+        "naziv": "Basic Tretorn Jeans",
+        "slike":{
+            "manja": "img/product/product-14-manja.png",
+            "veca": "img/product/product-14.jpg"
+        },
+        "ocena": 1,
+        "cena":{
+            "staraCena": 130.00,
+            "aktuelnaCena": 120.00
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [1, 3, 4],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "Their slim fit and classic design make them easy to pair with different clothing items, from t-shirts and hoodies to dress shirts and blazers."
+    },
+    {
+        "id": 15,
+        "naziv": "Black Tretorn Hoodie",
+        "slike":{
+            "manja": "img/product/product-15-manja.png",
+            "veca": "img/product/product-15.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 55.00
+        },
+        "popust": false,
+        "kategorijaID": 3,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [3, 4],
+        "pol": 1,
+        "sekcijaID": 1,
+        "opis": "This black men's vest is a stylish and practical addition to your wardrobe - made from premium materials, it offers both comfort and durability. With its high-quality materials and attention to detail, this vest is sure to become a reliable and stylish staple in your wardrobe."
+    },
+    {
+        "id": 16,
+        "naziv": "Blue Tretorn Hoodie",
+        "slike":{
+            "manja": "img/product/product-16-manja.png",
+            "veca": "img/product/product-16.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 88.56,
+            "aktuelnaCena": 60.33
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 2,
+        "bojaID": 1,
+        "velicinaID": [5, 6],
+        "pol": 1,
+        "sekcijaID": 2,
+        "opis": "Introducing this stylish men's fall jacket in a rich, dark blue color that will add an effortless touch of sophistication to your outfits. Made from high-quality materials, this jacket is designed to keep you warm and comfortable."
+    },
+    {
+        "id": 17,
+        "naziv": "Black Element Jacket",
+        "slike":{
+            "manja": "img/product/product-17-manja.png",
+            "veca": "img/product/product-17.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 100.99
+        },
+        "popust": false,
+        "kategorijaID": 4,
+        "brendID": 1,
+        "bojaID": 3,
+        "velicinaID": [3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "Stay warm and stylish this winter with this handsome black men's parka, complete with a luxurious fur-trimmed hood. Whether you're running errands or heading out on a snowy adventure, this jacket is sure to keep you looking sharp and feeling comfortable."
+    },
+    {
+        "id": 18,
+        "naziv": "White Berluti Shirt",
+        "slike":{
+            "manja": "img/product/product-18-manja.png",
+            "veca": "img/product/product-18.jpg"
+        },
+        "ocena": 3,
+        "cena":{
+            "staraCena": 33.00,
+            "aktuelnaCena": 26.99
+        },
+        "popust": true,
+        "kategorijaID": 1,
+        "brendID": 3,
+        "bojaID": 4,
+        "velicinaID": [1, 2, 3, 4, 5, 6],
+        "pol": 1,
+        "sekcijaID": 1,
+        "opis": "Make a statement with this stylish white and black men's t-shirt. The classic white base is contrasted with a sleek black panel at the top, creating a modern and eye-catching design."
+    },
+    {
+        "id": 19,
+        "naziv": "Black Berluti Shirt",
+        "slike":{
+            "manja": "img/product/product-19-manja.png",
+            "veca": "img/product/product-19.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 19.99
+        },
+        "popust": false,
+        "kategorijaID": 1,
+        "brendID": 3,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 5, 6],
+        "pol": 2,
+        "sekcijaID": 3,
+        "opis": "Introducing our new black floral-printed men's t-shirt, perfect for any occasion! The unique faded design adds a touch of style to your wardrobe, while the comfortable and breathable fabric ensures a great fit all day long."
+    },
+    {
+        "id": 20,
+        "naziv": "Black Missoni Dress",
+        "slike":{
+            "manja": "img/product/product-1-manja.png",
+            "veca": "img/product/product-1.jpg"
+        },
+        "ocena": 2,
+        "cena":{
+            "staraCena": 100.00,
+            "aktuelnaCena": 90.00
+        },
+        "popust": true,
+        "kategorijaID": 5,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black skirt will be a great addition to your wardrobe - made from quality materials and with a classic design, it will fit perfectly into your style, whether for formal or casual occasions."
+    },
+    {
+        "id": 21,
+        "naziv": "White Tretorn Shorts",
+        "slike":{
+            "manja": "img/product/product-21-manja.png",
+            "veca": "img/product/product-21.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 60.22
+        },
+        "popust": false,
+        "kategorijaID": 7,
+        "brendID": 2,
+        "bojaID": 4,
+        "velicinaID": [3, 4],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "Introducing the perfect addition to your summer wardrobe - a stylish white men's shorts that's both comfortable and versatile. Whether you're heading to the beach or running errands around town, these shorts are sure to keep you looking and feeling cool."
+    },
+    {
+        "id": 22,
+        "naziv": "White Element Shorts",
+        "slike":{
+            "manja": "img/product/product-22-manja.png",
+            "veca": "img/product/product-22.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 70.00,
+            "aktuelnaCena": 40.99
+        },
+        "popust": true,
+        "kategorijaID": 7,
+        "brendID": 1,
+        "bojaID": 4,
+        "velicinaID": [1, 2, 3, 6],
+        "pol": 1,
+        "sekcijaID": 1,
+        "opis": "Looking for a comfortable and stylish pair of shorts to wear this summer? Check out our latest addition - a pair of crisp white men's shorts that are perfect for any casual occasion."
+    },
+    {
+        "id": 23,
+        "naziv": "Black Missoni Shorts",
+        "slike":{
+            "manja": "img/product/product-23-manja.png",
+            "veca": "img/product/product-23.jpg"
+        },
+        "ocena": 1,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 88.88
+        },
+        "popust": false,
+        "kategorijaID": 7,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 3],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "Looking for a sleek and stylish addition to your wardrobe? They're designed to be durable and long-lasting, so you can enjoy them for years to come. Plus, their sleek black color makes them easy to pair with just about any outfit."
+    },
+    {
+        "id": 24,
+        "naziv": "Green Berluti Shirts",
+        "slike":{
+            "manja": "img/product/product-24-manja.png",
+            "veca": "img/product/product-24.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": 33.99,
+            "aktuelnaCena": 27.55
+        },
+        "popust": true,
+        "kategorijaID": 1,
+        "brendID": 3,
+        "bojaID": 5,
+        "velicinaID": [1, 2, 4],
+        "pol": 2,
+        "sekcijaID": 3,
+        "opis": "This light green women's shirt is perfect for adding a pop of color to your outfit. The shirt features a classic crew neck design and short sleeves, making it a great choice for warm weather."
+    },
+    {
+        "id": 25,
+        "naziv": "Black Tretorn Shirts",
+        "slike":{
+            "manja": "img/product/product-25-manja.png",
+            "veca": "img/product/product-25.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 23.99,
+            "aktuelnaCena": 17.55
+        },
+        "popust": true,
+        "kategorijaID": 1,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [2, 3, 4, 5, 6],
+        "pol": 2,
+        "sekcijaID": 2,
+        "opis": "This black women's shirt is made from a soft and comfortable fabric that feels great against the skin. It features a simple and classic design with a round neckline and short sleeves. The shirt has a relaxed fit that drapes nicely on the body, creating a flattering silhouette."
+    },
+    {
+        "id": 26,
+        "naziv": "Pink Element Hoodie",
+        "slike":{
+            "manja": "img/product/product-26-manja.png",
+            "veca": "img/product/product-26.jpg"
+        },
+        "ocena": 3,
+        "cena":{
+            "staraCena": 45.55,
+            "aktuelnaCena": 39.99
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 1,
+        "bojaID": 6,
+        "velicinaID": [1, 3, 4, 5, 6],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This women's sweatshirt is a lovely shade of pink that will add a pop of color to any outfit. Made from a soft and cozy fabric, it features a relaxed fit that's both comfortable and stylish."
+    },
+    {
+        "id": 27,
+        "naziv": "Green Element Hoodie",
+        "slike":{
+            "manja": "img/product/product-27-manja.png",
+            "veca": "img/product/product-27.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 34.99
+        },
+        "popust": false,
+        "kategorijaID": 3,
+        "brendID": 1,
+        "bojaID": 5,
+        "velicinaID": [1, 3, 4, 5, 6],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This women's sweatshirt is a lovely shade of green that will add a pop of color to any outfit. Made from a soft and cozy fabric, it features a relaxed fit that's both comfortable and stylish."
+    },
+    {
+        "id": 28,
+        "naziv": "Blue Tretorn Jeans",
+        "slike":{
+            "manja": "img/product/product-28-manja.png",
+            "veca": "img/product/product-28.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": 89.99,
+            "aktuelnaCena": 79.99
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 2,
+        "bojaID": 1,
+        "velicinaID": [1, 2, 3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "These women's jeans are a classic wardrobe staple that will never go out of style. Made from a durable denim fabric, they feature a straight-leg cut that flatters many body types."
+    },
+    {
+        "id": 29,
+        "naziv": "Pink Element Skirt",
+        "slike":{
+            "manja": "img/product/product-29-manja.png",
+            "veca": "img/product/product-29.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 39.99
+        },
+        "popust": false,
+        "kategorijaID": 6,
+        "brendID": 1,
+        "bojaID": 6,
+        "velicinaID": [1, 2],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This women's skirt is a unique and eye-catching piece that is perfect for adding a touch of sparkle to any outfit. The skirt features a playful mix of pink and black colors, with tiny sequins sewn throughout the fabric for a subtle shimmer."
+    },
+    {
+        "id": 30,
+        "naziv": "Basic Berluti Jeans",
+        "slike":{
+            "manja": "img/product/product-30-manja.png",
+            "veca": "img/product/product-30.jpg"
+        },
+        "ocena": 3,
+        "cena":{
+            "staraCena": 77.99,
+            "aktuelnaCena": 68.99
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 3,
+        "bojaID": 1,
+        "velicinaID": [1, 2, 3, 4, 5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "These women's jeans feature a wide-leg cut that creates a relaxed and comfortable fit. Made from a durable denim fabric, they have a traditional five-pocket design with a button and zip-fly closure."
+    },
+    {
+        "id": 31,
+        "naziv": "Black Missoni Dress",
+        "slike":{
+            "manja": "img/product/product-31-manja.png",
+            "veca": "img/product/product-31.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 80.00,
+            "aktuelnaCena": 59.99
+        },
+        "popust": true,
+        "kategorijaID": 5,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [4, 5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black women's dress is a timeless and elegant piece that harks back to the fashion of previous centuries. Made from a lightweight and flowy fabric, it features a long skirt that falls gracefully to the floor."
+    },
+    {
+        "id": 32,
+        "naziv": "White Berluti Hoodie",
+        "slike":{
+            "manja": "img/product/product-32-manja.png",
+            "veca": "img/product/product-32.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": 50.00,
+            "aktuelnaCena": 44.99
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 3,
+        "bojaID": 4,
+        "velicinaID": [1, 4, 5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This white women's sweatshirt is the perfect combination of comfort and style. Made from a soft and cozy fabric, it features an oversized fit that drapes loosely on the body for a relaxed and casual look."
+    },
+    {
+        "id": 33,
+        "naziv": "White Element Hoodie",
+        "slike":{
+            "manja": "img/product/product-33-manja.png",
+            "veca": "img/product/product-33.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 40.00,
+            "aktuelnaCena": 34.99
+        },
+        "popust": true,
+        "kategorijaID": 3,
+        "brendID": 1,
+        "bojaID": 4,
+        "velicinaID": [2, 4, 5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This white women's sweatshirt is the perfect combination of comfort and style. Made from a soft and cozy fabric, it features an oversized fit that drapes loosely on the body for a relaxed and casual look."
+    },
+    {
+        "id": 34,
+        "naziv": "White Element Shorts",
+        "slike":{
+            "manja": "img/product/product-34-manja.png",
+            "veca": "img/product/product-34.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 50.99
+        },
+        "popust": false,
+        "kategorijaID": 7,
+        "brendID": 1,
+        "bojaID": 4,
+        "velicinaID": [3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "Looking for a comfortable and stylish pair of shorts to wear this summer? Check out our latest addition - a pair of crisp white men's shorts that are perfect for any casual occasion."
+    },
+    {
+        "id": 35,
+        "naziv": "Pink Missoni Dress",
+        "slike":{
+            "manja": "img/product/product-35-manja.png",
+            "veca": "img/product/product-35.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 79.99
+        },
+        "popust": false,
+        "kategorijaID": 5,
+        "brendID": 4,
+        "bojaID": 6,
+        "velicinaID": [2, 3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This spring dress has a romantic and feminine look with its delicate pink fabric and small green floral print. The dress features a V-neckline at the front, which highlights the décolletage, while the 3/4 length sleeves are perfect for slightly cooler spring days."
+    },
+    {
+        "id": 36,
+        "naziv": "Blue Element Shorts",
+        "slike":{
+            "manja": "img/product/product-36-manja.png",
+            "veca": "img/product/product-36.jpg"
+        },
+        "ocena": 4,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 49.99
+        },
+        "popust": false,
+        "kategorijaID": 7,
+        "brendID": 1,
+        "bojaID": 1,
+        "velicinaID": [1, 3],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This light blue shorts have a delicate and elegant look. They are made from a soft material that resembles the fabric used for trousers, but with a lighter weight, making them perfect for spring and summer days."
+    },
+    {
+        "id": 37,
+        "naziv": "White Berluti Dress",
+        "slike":{
+            "manja": "img/product/product-37-manja.png",
+            "veca": "img/product/product-37.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": 90.99,
+            "aktuelnaCena": 85.99
+        },
+        "popust": true,
+        "kategorijaID": 5,
+        "brendID": 3,
+        "bojaID": 4,
+        "velicinaID": [1, 2],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This dress is perfect for casual and relaxed occasions, such as weekend getaways, strolling around the city, or simply lounging at home."
+    },
+    {
+        "id": 38,
+        "naziv": "Black Element Shorts",
+        "slike":{
+            "manja": "img/product/product-38-manja.png",
+            "veca": "img/product/product-38.jpg"
+        },
+        "ocena": 5,
+        "cena":{
+            "staraCena": 49.99,
+            "aktuelnaCena": 39.99
+        },
+        "popust": true,
+        "kategorijaID": 7,
+        "brendID": 1,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 3, 4],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black women's shorts are designed to resemble a skirt and are ideal for outings and night-time activities."
+    },
+    {
+        "id": 39,
+        "naziv": "Black Tretorn Skirt",
+        "slike":{
+            "manja": "img/product/product-39-manja.png",
+            "veca": "img/product/product-39.jpg"
+        },
+        "ocena": 2,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 49.99
+        },
+        "popust": false,
+        "kategorijaID": 6,
+        "brendID": 2,
+        "bojaID": 3,
+        "velicinaID": [1],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black skirt has a classic and elegant look with a longer length that falls below the knee. It is made from high-quality material that looks and feels luxurious, with a soft touch on the skin."
+    },
+    {
+        "id": 40,
+        "naziv": "Double Element Jeans",
+        "slike":{
+            "manja": "img/product/product-40-manja.png",
+            "veca": "img/product/product-40.jpg"
+        },
+        "ocena": 1,
+        "cena":{
+            "staraCena": 110.99,
+            "aktuelnaCena": 105.99
+        },
+        "popust": true,
+        "kategorijaID": 2,
+        "brendID": 1,
+        "bojaID": 4,
+        "velicinaID": [6],
+        "pol": 1,
+        "sekcijaID": null,
+        "opis": "These men's jeans have an eye-catching design, with the right leg in white and the left leg in black color. The jeans are made from high-quality denim material that is durable and comfortable, with a soft and pleasant feel against the skin."
+    },
+    {
+        "id": 41,
+        "naziv": "Black Missoni Skirt",
+        "slike":{
+            "manja": "img/product/product-41-manja.png",
+            "veca": "img/product/product-41.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 49.99
+        },
+        "popust": false,
+        "kategorijaID": 6,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [1, 2, 5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black skirt has a classic and elegant look with a longer length that falls below the knee. It is made from high-quality material that looks and feels luxurious, with a soft touch on the skin."
+    },
+    {
+        "id": 42,
+        "naziv": "Black Missoni Jeans",
+        "slike":{
+            "manja": "img/product/product-42-manja.png",
+            "veca": "img/product/product-42.jpg"
+        },
+        "ocena": 0,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 59.99
+        },
+        "popust": false,
+        "kategorijaID": 2,
+        "brendID": 4,
+        "bojaID": 3,
+        "velicinaID": [5],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "These black women's jeans are a classic wardrobe staple that never goes out of style. They are made from high-quality denim material that is durable and comfortable, with a soft and smooth feel against the skin."
+    },
+    {
+        "id": 43,
+        "naziv": "Green Berluti Jacket",
+        "slike":{
+            "manja": "img/product/product-43-manja.png",
+            "veca": "img/product/product-43.jpg"
+        },
+        "ocena": 1,
+        "cena":{
+            "staraCena": 169.99,
+            "aktuelnaCena": 159.99
+        },
+        "popust": true,
+        "kategorijaID": 4,
+        "brendID": 3,
+        "bojaID": 5,
+        "velicinaID": [3, 4],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This women's winter jacket in beige-green color has a modern and trendy design, with fur extending around the hood and sleeves. It is made of high-quality materials that provide warmth and comfort during cold winter days."
+    },
+    {
+        "id": 44,
+        "naziv": "Black Berluti Jacket",
+        "slike":{
+            "manja": "img/product/product-44-manja.png",
+            "veca": "img/product/product-44.jpg"
+        },
+        "ocena": 1,
+        "cena":{
+            "staraCena": 159.99,
+            "aktuelnaCena": 149.99
+        },
+        "popust": true,
+        "kategorijaID": 4,
+        "brendID": 3,
+        "bojaID": 3,
+        "velicinaID": [3, 4, 5, 6],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This black women's coat has a classic design that will never go out of style. It is made of high-quality materials that provide warmth and comfort during the colder months."
+    },
+    {
+        "id": 45,
+        "naziv": "Greem Tretorn Shirt",
+        "slike":{
+            "manja": "img/product/product-45-manja.png",
+            "veca": "img/product/product-45.jpg"
+        },
+        "ocena": null,
+        "cena":{
+            "staraCena": null,
+            "aktuelnaCena": 29.99
+        },
+        "popust": false,
+        "kategorijaID": 1,
+        "brendID": 2,
+        "bojaID": 5,
+        "velicinaID": [1, 2, 3, 4],
+        "pol": 2,
+        "sekcijaID": null,
+        "opis": "This green women's t-shirt is perfect for casual wear. It is made of soft and comfortable material, which makes it easy to wear for extended periods."
+    }
+]

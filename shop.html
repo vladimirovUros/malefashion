@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="sr-latin">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="mailto:uros.vladimirov.45.21@ict.edu.rs"/>
+    <meta name="keywords" content="Shop, Shopping, Clothes, Categories, Rating, Add to Card"/>
+    <meta name="copyright" content="Male Fashion 2023"/>
+    <meta name="language" content="serbian"/>
+    <meta name="description" content="Male Fashio Shop, Add to Card, Favourites"/>
+    <title>Male-Fashion | Shop</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet"/>
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+
+<body>
+    
+    <div id="preloader">
+        <img src="img/pre-loader.png" alt="Loader" />
+    </div>
+
+       <!-- Offcanvas Menu Begin -->
+       <div class="offcanvas-menu-overlay"></div>
+       <div class="offcanvas-menu-wrapper">
+           <div class="offcanvas__option">
+               <div class="offcanvas__top__hover">
+                   <span class="valuta">Usd <i class="arrow_carrot-down"></i></span>
+                   <ul class="valute">
+                       <li>EUR</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="offcanvas__nav__option">
+               <a href="wishlist.html"><img src="img/icon/heart.png" alt="Favourites icon"></a>
+               <a href="shopping-cart.html"><img src="img/icon/cart.png" alt="Shopping card icon"> <span class="broj-proizvoda-u-kartici"></span></a>
+               <div class="price ukupnaCenauKorpi"></div>
+           </div>
+           <div id="mobile-menu-wrap">
+               <div class="slicknav_menu">
+                   <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
+                       <span class="slicknav_menutxt">MENU</span>
+                       <span class="slicknav_icon"></span>
+                       <span class="slicknav_icon-bar"></span>
+                       <span class="slicknav_icon-bar"></span>
+                       <span class="slicknav_icon-bar"></span>
+                   </a>
+                   <nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                   <ul>
+                   </ul>
+                   <i class="fa fa-times zatvoriMeni"></i>
+                   </nav>
+               </div>
+           </div>
+           <div class="offcanvas__text">
+               <p>Free shipping, 30-day return or refund guarantee.</p>
+           </div>
+       </div>
+       <!-- Offcanvas Menu End -->
+   
+       <!-- Header Section Begin -->
+       <header class="header">
+           <div class="header__top">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-6 col-md-7">
+                           <div class="header__top__left">
+                               <p>Free shipping, 30-day return or refund guarantee.</p>
+                           </div>
+                       </div>
+                       <div class="col-lg-6 col-md-5">
+                           <div class="header__top__right">
+                               <div class="header__top__hover">
+                                   <span class="valuta">Usd <i class="arrow_carrot-down"></i></span>
+                                   <ul class="valute">
+                                       <li>EUR</li>
+                                   </ul>
+                               </div> 
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-3 col-md-3">
+                       <div class="header__logo">
+                           <a href="index.html"><img src="img/logo.png" alt="Male Fashion header logo"></a>
+                       </div>
+                   </div>
+                   <div class="col-lg-6 col-md-6">
+                       <nav class="header__menu mobile-menu">
+                           <ul>
+                              <!-- dinamicki -->
+                           </ul>
+                       </nav>
+                   </div>
+                   <div class="col-lg-3 col-md-3">
+                       <div class="header__nav__option">
+                           <a href="wishlist.html"><img src="img/icon/heart.png" alt="Favourites icon"></a>
+                           <a href="shopping-cart.html"><img src="img/icon/cart.png" alt="Shopping card icon"> <span class="broj-proizvoda-u-kartici"></span></a>
+                           <div class="price ukupnaCenauKorpi"></div>
+                       </div>
+                   </div>
+               </div>
+               <div class="canvas__open"><i class="fa fa-bars"></i></div>
+           </div>
+       </header>
+       <!-- Header Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>Shop</h4>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html">Home</a>
+                            <span>Shop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="shop__sidebar">
+                        <div class="shop__sidebar__search">
+                            <form action="#">
+                                <input type="text" placeholder="Search..."/>
+                                <button type="submit"><span class="icon_search"></span></button>
+                            </form>
+                        </div>
+                        <div class="shop__sidebar__accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__categories">
+                                                <ul class="nice-scroll" id="uv-categoriesSidebar">
+                                                <!-- dinamicki ispisano -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__brand">
+                                                <ul id="uv-brandSidebar">
+                                                    <!-- dinamicki ispisano -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__price">
+                                                <ul>
+                                                    <li>$<span id="left-price">0.00</span> - $<span id="right-price">50.00</span></li>
+                                                    <li>$<span id="left-price">50.00</span> - $<span id="right-price">100.00</span></li>
+                                                    <li>$<span id="left-price">100.00</span> - $<span id="right-price">150.00</span></li>
+                                                    <li>$<span id="left-price">150.00</span> - $<span id="right-price">200.00</span></li>
+                                                    <li>$<span id="left-price">200.00</span> - $<span id="right-price">250.00</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__size" id="uv-sizeSidebar">
+                                                <!-- dinamicki -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseTwo">Rating</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__brand">
+                                                <ul id="uv-ratingSidebar">
+                                                    <!-- dinamicki ispisano -->
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseFive">Colors</a>
+                                    </div>
+                                    <div id="collapseFive" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__color" id="uv-colorSidebar">
+                                                <!-- dinamicki -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseSix">Gender</a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__tags">
+                                                <input type="radio" name="pol" value="1" id="rbM"/>
+                                                <label for="rbM" id="labelM"></label><br/>
+                                                <input type="radio" name="pol" value="2" id="rbŽ"/>
+                                                <label for="rbŽ" id="labelŽ"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="shop__product__option">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__left">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="shop__product__option__right">
+                                    <p>Sort by:</p>
+                                    <select id="uv-sortiranje">
+                                        <option value="default">Default</option>
+                                        <option value="name-asc">Name A-Z</option>
+                                        <option value="name-desc">Name Z-A</option>
+                                        <option value="price-asc">Price ASC</option>
+                                        <option value="price-desc">Price DESC</option>
+                                        <option value="most-popular">Most popular</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span id="prazanNiz"></span>
+                    <div class="row" id="allProducts">
+                        <!-- dinamicki -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shop Section End -->
+
+   <!-- Footer Section Begin -->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/footer-logo.png" alt="Male Fashio Footer Logo"></a>
+                    </div>
+                    <p>The customer is at the heart of our unique business model, which includes high quality clothing for minimum price.</p>
+                    <a href="index.html"><img src="img/payment.png" alt="Payments methods"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Shopping</h6>
+                    <ul>
+                        <li><a href="shop.html">Clothing Store</a></li>
+                        <li><a href="index.html">Trending Shoes</a></li>
+                        <li><a href="shop.html">Accessories</a></li>
+                        <li><a href="index.html">Sale</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div class="footer__widget">
+                    <h6>Information</h6>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Payment Methods</a></li>
+                        <li><a href="index.html">Delivary</a></li>
+                        <li><a href="index.html">Return & Exchanges</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                <div class="footer__widget">
+                    <h6>NewLetter</h6>
+                    <div class="footer__newslatter">
+                        <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer__copyright__text">
+                    <p>All rights reserved &copy; 2023 ICT College</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+<div id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+</div>
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+  <!-- Button trigger modal -->
+  <!-- Modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content uv-modal">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+        </div>
+        <div class="modal-body">
+            <img src="img/shopping-cart.png" alt="cart">
+            <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="overlay-modal"></div>
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

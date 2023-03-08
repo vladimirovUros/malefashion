@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "naziv": "Blue"
+    },
+    {
+        "id": 2,
+        "naziv": "Red"
+    },
+    {
+        "id": 3,
+        "naziv": "Black"
+    },
+    {
+        "id": 4,
+        "naziv": "White"
+    },
+    {
+        "id": 5,
+        "naziv": "Green"
+    },
+    {
+        "id": 6,
+        "naziv": "Pink"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "naziv": "Popular"
+    },
+    {
+        "id": 2,
+        "naziv": "New Arrivals"
+    },
+    {
+        "id": 3,
+        "naziv": "Hot"
+    }
+]

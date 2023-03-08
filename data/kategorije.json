@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "naziv": "Shirts"
+    },
+    {
+        "id": 2,
+        "naziv": "Jeans"
+    },
+    {
+        "id": 3,
+        "naziv": "Hoodies"
+    },
+    {
+        "id": 4,
+        "naziv": "Jackets"
+    },
+    {
+        "id": 5,
+        "naziv": "Dress"
+    },
+    {
+        "id": 6,
+        "naziv": "Skirts"
+    },
+    {
+        "id": 7,
+        "naziv": "Shorts"
+    }
+]

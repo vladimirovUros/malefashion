@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "naziv": "XS"
+    },
+    {
+        "id": 2,
+        "naziv": "S"
+    },
+    {
+        "id": 3,
+        "naziv": "M"
+    },
+    {
+        "id": 4,
+        "naziv": "L"
+    },
+    {
+        "id": 5,
+        "naziv": "XL"
+    },
+    {
+        "id": 6,
+        "naziv": "2XL"
+    },
+    {
+        "id": 7,
+        "naziv": "3XL"
+    }
+]
