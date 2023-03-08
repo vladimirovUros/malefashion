@@ -1224,6 +1224,7 @@ if(window.location.pathname.includes("/shop.html")){
         opisProizvoda();
         dodajUKorpu();
         dodajUOmiljene();
+        setTimeout(function(){
         let catInputi = document.querySelectorAll('#uv-categoriesSidebar input');
         let brendInputi = document.querySelectorAll('#uv-brandSidebar input');
         let ceneRang = document.querySelectorAll('.shop__sidebar__price ul li')
@@ -1282,6 +1283,7 @@ if(window.location.pathname.includes("/shop.html")){
            promeniIzgledProizvoda();
         })
         promeniBrojProizvoda();
+        }, 500);
     }
    
 }

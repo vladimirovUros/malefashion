@@ -600,7 +600,9 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
-
+.documentation a{
+	color: red!important;
+}
 .hero__slider.owl-carousel{
 	display: block;
 }
@@ -721,9 +723,9 @@ ol {
   
   #preloader img{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 45%;
+	left: 45%;
+	/* transform: translate(-50%, -50%); */
 	animation: spin 1.2s linear infinite;
   }
   @keyframes spin {
@@ -3626,7 +3628,18 @@ Author
 	color: #b7b7b7;
 	margin-bottom: 30px;
 }
-
+#radios{
+	display: flex;
+	align-items: center;
+}
+.radiobtn{
+	margin-bottom: 0!important;
+	width: 20px!important;
+	margin-right: 5px!important;
+}
+#radios span{
+	margin-right: 15px!important;
+}
 .contact__form input::-webkit-input-placeholder {
 	color: #b7b7b7;
 }
